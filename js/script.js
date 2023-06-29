@@ -34,7 +34,7 @@ function init() {
     let scale = 0.01;
     // let url = "https://rawcdn.githack.com/BabylonJS/Exporters/422493778d6ffbc2980e83e46eb94729bbeada0c/Maya/Samples/glTF%202.0/T-Rex/trex_running.gltf";
     // let url = "https://raw.githubusercontent.com/leoneloliver/demo3d/main/house.gltf";
-    let url = "https://rawcdn.githack.com/leoneloliver/demo3d/44c4263258b0ef084e63cfda42afc742632572eb/scene.gltf";
+    let url = "https://rawcdn.githack.com/leoneloliver/demo3d/c32357eb594232f05bd9a03f5fd62f79e218b394/scene.gltf";
     
     loader.load(url, function (data) {
         gltf = data;
